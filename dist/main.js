@@ -1,1 +1,1 @@
-console.log("Hello world");
+(()=>{"use strict";!function(){const n=document.querySelector("#content"),e=document.createElement("div");e.innerHTML="\n  <nav>\n    <div><p>The Bear</p></div>\n    <div>\n        <ul>\n            <li>Menu</li>\n            <li>About</li>\n        </ul>\n    </div>\n  </nav>\n  <section>\n    <div><h1>The Bear</h1></div>\n    <div>\n        <h2>A Taste of Chicago and Beyond.</h2>\n    </div>\n  </section>\n  \n  ",n.appendChild(e)}()})();
