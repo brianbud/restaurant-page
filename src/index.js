@@ -1,3 +1,3 @@
 import home from "./pages/home";
-
-home();
+import about from "./pages/about";
+import nav from "./pages/nav";

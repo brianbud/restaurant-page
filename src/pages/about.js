@@ -1,7 +1,9 @@
 export default function aboutUs() {
   const content = document.querySelector("#content");
+  const about = document.createElement("div");
+  content.innerHTML = "";
 
-  content.innerHTML = `
+  about.innerHTML = `
     <div>
         <p>
         The Original Beef of Chicagoland, simply known as The Beef, was the family business of the Berzattos. 
@@ -15,4 +17,6 @@ export default function aboutUs() {
 
     </div>
     `;
+
+  content.appendChild(about);
 }
