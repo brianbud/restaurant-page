@@ -1,5 +1,5 @@
 export default function navbar() {
-  const body = document.querySelector("body");
+  const content = document.querySelector("#content");
   const nav = document.createElement("nav");
 
   nav.innerHTML = `
@@ -7,11 +7,11 @@ export default function navbar() {
   <p>The Bear</p></div>
   <div>
       <ul>
-          <li>Menu</li>
+          <li>Home</a></li>
           <li>About</li>
+          <li>Menu</li>
       </ul>
   </div>
   `;
-
-  body.appendChild(nav);
+  content.appendChild(nav);
 }

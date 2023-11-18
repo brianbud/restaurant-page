@@ -1,10 +1,9 @@
 export default function home() {
   const content = document.querySelector("#content");
 
-  content.innerHTML = "";
   const hero = document.createElement("div");
   hero.innerHTML = `
-  <section>
+  <section id="home">
     <div><h1>The Bear</h1></div>
     <div>
         <h2>A Taste of Chicago and Beyond.</h2>
