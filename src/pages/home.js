@@ -1,10 +1,9 @@
 export default function home() {
   const content = document.querySelector("#content");
-
   const hero = document.createElement("div");
+
   hero.innerHTML = `
   <section id="home">
-    <div><h1>The Bear</h1></div>
     <div>
         <h2>A Taste of Chicago and Beyond.</h2>
     </div>
@@ -18,5 +17,5 @@ export default function home() {
   </section>
   
   `;
-  content.appendChild(hero);
+  return hero;
 }

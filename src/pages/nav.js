@@ -1,17 +1,14 @@
 export default function navbar() {
   const content = document.querySelector("#content");
-  const nav = document.createElement("nav");
-
-  nav.innerHTML = `
-  <div>
-  <p>The Bear</p></div>
-  <div>
-      <ul>
-          <li>Home</a></li>
-          <li>About</li>
-          <li>Menu</li>
-      </ul>
-  </div>
+  const header = document.createElement("header");
+  header.innerHTML = `
+    <div><h1>The Bear</h1></div>
+    <div>
+      <button>Home</button>
+      <button>Menu</button>
+      <button>About Us</button>
+    <div>
   `;
-  content.appendChild(nav);
+
+  return header;
 }

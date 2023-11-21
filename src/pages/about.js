@@ -2,9 +2,8 @@ export default function aboutUs() {
   const content = document.querySelector("#content");
   const about = document.createElement("div");
   document.querySelector("#home").innerHTML = "";
-
   about.innerHTML = `
-    <div>
+    <div id="about">
         <p>
         The Original Beef of Chicagoland, simply known as The Beef, was the family business of the Berzattos. 
         It was originally run by Mikey Berzatto, but after his passing was passed down to his younger brother Carmen “Carmy” Berzatto.
