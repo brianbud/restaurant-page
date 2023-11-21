@@ -43,4 +43,17 @@ export default function menu() {
       price: 15,
     },
   ];
+
+  const menuDiv = document.createElement("div");
+  menu.forEach((item) => {
+    menuDiv.innerHTML += `
+    <div>
+        <h1>${item.name}</h1>
+        <p>${item.description}</p>
+        <p>$ ${item.price}</p>
+    </div>
+    `;
+  });
+
+  return menuDiv;
 }
