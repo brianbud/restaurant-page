@@ -1,7 +1,6 @@
 export default function aboutUs() {
-  const content = document.querySelector("#content");
   const about = document.createElement("div");
-  document.querySelector("#home").innerHTML = "";
+
   about.innerHTML = `
     <div id="about">
         <p>
@@ -17,5 +16,5 @@ export default function aboutUs() {
     </div>
     `;
 
-  content.appendChild(about);
+  return about;
 }
