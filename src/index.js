@@ -4,12 +4,8 @@ import menu from "./pages/menu";
 import nav from "./pages/nav";
 
 function firstRender() {
-  const content = document.querySelector("#content");
-  content.appendChild(nav());
-  home();
+  renderHome();
 }
-
-firstRender();
 
 const content = document.querySelector("#content");
 content.addEventListener("click", (e) => {
@@ -40,3 +36,5 @@ function renderMenu() {
   content.appendChild(nav());
   content.appendChild(menu());
 }
+
+firstRender();
