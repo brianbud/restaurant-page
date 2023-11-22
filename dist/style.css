@@ -1,3 +1,28 @@
+/* header */
+
 header {
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  background-color: black;
+}
+
+header h1 {
+  padding-top: 1rem;
+}
+
+button {
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  border-bottom: 4px solid rgb(236, 125, 15);
+  transition: border 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }

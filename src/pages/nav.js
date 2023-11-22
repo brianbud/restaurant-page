@@ -3,11 +3,11 @@ export default function navbar() {
   const header = document.createElement("header");
   header.innerHTML = `
     <div><h1>The Bear</h1></div>
-    <div>
+    <nav>
       <button>Home</button>
       <button>Menu</button>
       <button>About Us</button>
-    <div>
+    <nav>
   `;
 
   return header;
