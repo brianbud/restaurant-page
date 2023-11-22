@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Roboto", sans-serif;
 }
 
 /* header */
@@ -9,13 +10,14 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
   color: #fff;
   background-color: black;
 }
 
 header h1 {
+  font-family: "Great Vibes", cursive;
   padding-top: 1rem;
+  font-size: 2rem;
 }
 
 button {
@@ -50,7 +52,11 @@ header ~ div {
   text-align: center;
 }
 
-#home p {
+p {
   color: white;
   filter: brightness(120%);
+}
+
+section {
+  font-size: 2rem;
 }
